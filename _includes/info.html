@@ -1,0 +1,47 @@
+<!-- Start 3 columns -->
+<section id="info" style="padding: 0px;">
+<div class="three-shade-col">
+    <div class="col-sm-4">
+		<img src="{{ site.baseurl }}/img/svg/envelope.svg" width="19%">
+        <h3>Wer?</h3>
+        <ul>
+			{% if site.contact.name %}<li><strong>{{ site.contact.name }}</strong> </li>{% endif %}
+            {% if site.contact.phone %}<li><strong>Telefon:</strong> <a href="tel:{{ site.contact.phone }}">{{ site.contact.phone }}</a></li>{% endif %}
+            {% if site.contact.email %}<li><strong>Email:</strong> <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></li>{% endif %}
+        </ul>
+    </div>
+    <div class="col-sm-4">
+        <img src="{{ site.baseurl }}/img/svg/clock.svg" width="15%">
+        <h3>Wann?</h3>
+        <!-- <table>
+            <tbody>
+                <tr>
+                    <td>Monday – Friday</td>
+                    <td>Je nach Termin</td>
+                </tr>
+            </tbody>
+        </table> -->
+	        <ul>
+                <li><strong>Montag - Freitag</strong></li>
+                <li>{{ site.monday_friday }}</li>
+	        </ul>
+    </div>
+    <div class="col-sm-4">
+        <img src="{{ site.baseurl }}/img/svg/map-mark.svg" width="10%">
+        <h3>Wo?</h3>
+            <p>
+				<a class="page-scroll" href="#location">{{ site.contact.address }}</a>
+            </p>
+    </div>
+</div>
+<div class="three-shade-col">
+                <div class="col-md-12">
+                    <ul class="list-inline social-buttons">
+                        {% for network in site.social %}
+                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div></div>
+</section>
+<!-- End 3 columns -->

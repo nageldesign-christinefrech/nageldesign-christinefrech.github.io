@@ -1,0 +1,49 @@
+url: https://nageldesign-christinefrech.github.io
+baseurl: /nageldesign
+
+# Site settings
+title: Nageldesign Christine Frech
+email: nageldesign.frech@gmx.at
+description: "Das ist eine Beschreibung"
+
+# Team names, titles and social links
+people:
+  - name: Christine Frech
+    pic: 3
+    position: Nageldesignerin
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com/Nageldesign.Christine/
+  - title: instagram
+    url: https://www.facebook.com/Nageldesign.Christine/
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Obergausendorf 9
+  - line: 8793 Trofaiach
+
+  # Contact info
+contact:
+  name: Christine Frech
+  phone: 0650/5666397
+  email: christine.frech1@gmx.at
+  address: Obergausendorf 9, <br> 8793 Trofaiach
+
+# Opening hours
+monday_friday: Je nach Termin
+saturday: 10:00 – 17:00
+sunday: 10:00 – 15:00
+
+# Map
+map:
+  zoom: 17
+  address: Obergausendorf 9, 8793 Trofaiach
+  address-details: img/svg/clock.svg
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-seo-tag

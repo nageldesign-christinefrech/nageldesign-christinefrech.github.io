@@ -1,0 +1,13 @@
+---
+title: Natürliche Nägel
+subtitle: Info
+layout: default
+modal-id: 3
+date: 2019-07-21
+img: natur.jpg
+thumbnail: natur.jpg
+alt: Nature nails
+price: 40Euro
+description: Natuerliche Naegel--> 40Euro
+
+---

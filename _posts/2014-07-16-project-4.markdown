@@ -1,0 +1,13 @@
+---
+title: French Nails
+subtitle: Info
+layout: default
+modal-id: 1
+date: 2019-07-21
+img: french.jpg
+thumbnail: french.jpg
+alt: French nails
+price: 40Euro
+description: Klassisch - aber doch modern --> 40Euro
+
+---

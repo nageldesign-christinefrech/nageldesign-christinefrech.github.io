@@ -1,0 +1,13 @@
+---
+title: Gel Nails
+subtitle: Info
+layout: default
+modal-id: 2
+date: 2019-07-21
+img: gel.jpg
+thumbnail: gel.jpg
+alt: French nails
+price: 40Euro
+description: Pimp your nails with gel
+
+---
